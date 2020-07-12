@@ -16,8 +16,8 @@ from src.helper.generator import Generator
 from src.helper.visualizer import Visualizer
 
 
-DATA_PATH = '/home/qge2/workspace/data/MNIST_data/'
-SAVE_PATH = '/home/qge2/workspace/data/out/vae/'
+DATA_PATH = 'D:/Onedrive/OneDrive - Oklahoma A and M System/Zhangyue/Code Library/tensorflow_stacked_denoising_autoencoder-master/MNIST_data/'
+SAVE_PATH = 'D:/Office/Github/adversarial-autoencoders/result'
 
 def get_args():
     parser = argparse.ArgumentParser()
@@ -362,3 +362,4 @@ if __name__ == '__main__':
         generate()
     elif FLAGS.viz:
         visualize()
+train()
